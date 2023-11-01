@@ -1,5 +1,6 @@
 Part 1 - Bugs
 
+Junit Tests:
 ```
 @Test
   public void testReversed1(){
@@ -16,6 +17,10 @@ Part 1 - Bugs
   }
 ```
 
+Symptom:
+![Image](Screenshot 2023-10-30 at 8.09.15 PM.png)
+
+Before and After Reversed Method Code:
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -32,6 +37,7 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
 ```
-The fix addresses the issue of 
+
+The fix addresses the issue of the buggy program returning the original array instead of the new one. It also makes it so the new array is the one getting changed within the for loop in order to return a new separate array with all the elements of the input array in reverse order.
 
 Part 2 - Researching Commands
