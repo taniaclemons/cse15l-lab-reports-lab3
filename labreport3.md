@@ -1,5 +1,6 @@
 Part 1 - Bugs
 
+```
 @Test
   public void testReversed1(){
     //Test w/ a failure-inducing input for the buggy program
@@ -13,8 +14,9 @@ Part 1 - Bugs
     int[] input1 = { };
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
+```
 
-
+```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -29,5 +31,7 @@ static int[] reversed(int[] arr) {
     }
     return newArray;
   }
+```
+The fix addresses the issue of 
 
 Part 2 - Researching Commands
