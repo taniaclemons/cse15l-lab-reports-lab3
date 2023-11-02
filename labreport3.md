@@ -69,7 +69,7 @@ taniaclemons@Tanias-MacBook-Pro docsearch % grep -c "Postal Service" ./technical
 ```
 The -c command-line option allows you to see the count of the number of matching lines with the given argument. This is useful because it’s more efficient to just see the number instead of the printed matching line when you want to see the frequency of a word being used.
 
-*Source*: https://en.wikibooks.org/wiki/Grep
+*Source*: [Link](https://en.wikibooks.org/wiki/Grep)
 
 
 **grep -i**
@@ -94,7 +94,7 @@ taniaclemons@Tanias-MacBook-Pro docsearch % grep -i "counterterrorism investigat
 ```
 The -i command-line option makes it so it ignores the uppercase and lowercase differences of the argument when finding matching patterns. It’s useful because it makes the argument more inclusive without having to add more to it.
 
-*Source*: https://en.wikibooks.org/wiki/Grep
+*Source*: [Link](https://en.wikibooks.org/wiki/Grep)
 
 
 **grep -n**
@@ -120,7 +120,7 @@ taniaclemons@Tanias-MacBook-Pro docsearch % grep -n "excessive" ./technical/gove
 ```
 The -n command-line option includes the line number in the output of the matching lines with the given pattern. It’s useful because it makes it easier to find the argument within the actual text.
 
-*Source*: https://en.wikibooks.org/wiki/Grep
+*Source*: [Link](https://en.wikibooks.org/wiki/Grep)
 
 
 **grep -l**
@@ -145,4 +145,4 @@ taniaclemons@Tanias-MacBook-Pro docsearch % grep -l "counterterrorism" ./technic
 ```
 The -l command-line option only returns the matching files with the given pattern instead of the lines. It’s useful for when you just want to know which files to find the argument instead of the lines.
 
-*Source*: https://en.wikibooks.org/wiki/Grep
+*Source*: [Link](https://en.wikibooks.org/wiki/Grep)
